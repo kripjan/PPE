@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - PPE Detection System</title>
+    <link rel="stylesheet" href="setting.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-brand">PPE Detection System</div>
+        <div class="navbar-links">
+            <a href="homepage.html">Home</a>
+            <a href="#">Profile</a>
+            <a href="#">Logout</a>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="monitoring.html">Live Monitoring</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="setting.html">Settings</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="section" id="settings">
+                <h2>Settings</h2>
+                <div class="settings-content">
+                    <div class="general-settings">
+                        <h3>General Settings</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="system-name">System Name:</label>
+                                <input type="text" id="system-name" name="system-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="language">Language:</label>
+                                <select id="language" name="language">
+                                    <option value="en">English</option>
+                                    <option value="es">Spanish</option>
+                                    <!-- Add more languages as needed -->
+                                </select>
+                            </div>
+                            <button type="submit">Save Changes</button>
+                        </form>
+                    </div>
+                    <div class="notification-settings">
+                        <h3>Notification Settings</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="email-notifications">Email Notifications:</label>
+                                <input type="checkbox" id="email-notifications" name="email-notifications">
+                            </div>
+                            <div class="form-group">
+                                <label for="sms-notifications">SMS Notifications:</label>
+                                <input type="checkbox" id="sms-notifications" name="sms-notifications">
+                            </div>
+                            <button type="submit">Save Changes</button>
+                        </form>
+                    </div>
+                    <div class="camera-settings">
+                        <h3>Camera Settings</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="camera-resolution">Camera Resolution:</label>
+                                <select id="camera-resolution" name="camera-resolution">
+                                    <option value="1080p">1080p</option>
+                                    <option value="720p">720p</option>
+                                    <option value="480p">720p</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="frame-rate">Frame Rate:</label>
+                                <select id="frame-rate" name="frame-rate">
+                                    <option value="120">120</option>
+                                    <option value="60">60</option>
+                                    <option value="30">30</option>
+                                </select>
+                            </div>
+                            <button type="submit">Save Changes</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

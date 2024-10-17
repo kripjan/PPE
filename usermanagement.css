@@ -1,0 +1,13 @@
+.user-management .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-list,
+.user-form {
+    margin-bottom: 20px;
+    background-color: #a2a6d6;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
